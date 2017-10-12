@@ -1,0 +1,132 @@
+main {
+    padding: 50px 0;
+    background-color: #f3efe4;
+}
+
+main .container {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e4ded1;
+    background-color: white;
+}
+
+main .container > .row {
+    margin: 30px;
+}
+
+main .container .row .jumbotron {
+    height: 500px;
+    margin-bottom: 0;
+    color: #f3efe4;
+    background: url("../img/banner-image.jpg") top center no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+main .container .row .jumbotron h1 {
+    margin-top: 150px;
+}
+
+main .container .row .jumbotron p {
+    max-width: 645px;
+    width: 100%;
+    font-size: 18px;
+}
+
+main .container .row .jumbotron a {
+    width: 200px;
+}
+
+main .container .row aside nav:nth-child(3) .nav-list .nav-list__item:last-child a i {
+   color: #94a14c;
+}
+
+main .container .row aside nav:not(:first-child) {
+    margin-top: 30px;
+}
+
+main .container .row .thumbnail {
+    height: 200px;
+    max-width: 720px;
+    width: 100%;
+
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-radius: 0;
+}
+
+main .container .row .thumbnail:first-child {
+    margin-top: 15px;
+}
+
+main .container .row .thumbnail:not(:first-child) {
+    margin-top: 50px;
+}
+
+main .container .row .thumbnail img {
+    float: left;
+
+    margin-right: 15px;
+}
+
+main .container .row .thumbnail .caption {
+    float: right;
+    max-width: 420px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main .container .row .thumbnail .caption h3 {
+    position: relative;
+
+    max-width: 420px;
+    width: 100%;
+    margin-top: 0;
+    color: #d98d1b;
+}
+
+main .container .row .thumbnail .caption h3 i {
+    float: right;
+}
+
+main .container .row .thumbnail .caption h3 span {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+
+    color: white;
+}
+
+main .container .row .thumbnail .caption span {
+    font-size: 12px;
+    color: #828282;
+}
+
+main .container .row .thumbnail .caption span i {
+    margin-right: 5px;
+}
+
+main .container .row .thumbnail .caption span i:not(:first-child) {
+    margin-left: 15px;
+}
+
+main .container .row .thumbnail .caption p {
+    max-width: 420px;
+    width: 100%;
+    margin-top: 10px;
+
+    font-size: 14px;
+    color: #5b5b5b;
+    line-height: 1.5;
+}
+
+main .container .row .thumbnail .caption p a,
+main .container .row .thumbnail .caption p a:hover {
+    color: #d98d1b;
+}
+
+main .container .row .thumbnail .caption p a:hover {
+    text-decoration: none;
+}
