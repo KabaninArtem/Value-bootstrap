@@ -1,6 +1,7 @@
 @import url(../fonts/font-awesome-4.7.0/css/font-awesome.css);
 @import url(../css/header.css);
 @import url(../css/main.css);
+@import url(../css/footer.css);
 
 @font-face {
     font-family: Lato;
@@ -39,4 +40,57 @@
 
 .nav-list__item a i {
     margin-right: 5px;
+}
+
+.email-block {
+    display: flex;
+
+    width: 180px;
+    margin-top: 20px;
+}
+
+input[type=search],
+input[type=email] {
+    align-self: flex-end;
+    outline: none;
+    width: 230px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #757f3c;
+    box-sizing: border-box;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background-color: rgb(243, 239, 228);
+    box-shadow: inset 0px 1px 0 0px rgba(196, 176, 122, 0.47);
+}
+
+input[type=search]::placeholder,
+input[type=email ]::placeholder {
+    color: #94a14c;
+}
+
+button {
+    height: 30px;
+    padding-right: 15px;
+    color: #94a14c;
+    cursor: pointer;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+    background-color: rgb(243, 239, 228);
+    box-shadow: inset 0px 1px 0 0px rgba(196, 176, 122, 0.47);
+    outline: none;
+}
+
+.line-border {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #51582a;
+    border-bottom: 1px solid #889446;
 }

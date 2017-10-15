@@ -56,42 +56,46 @@ main .container .row .thumbnail {
     border-radius: 0;
 }
 
-main .container .row .thumbnail:first-child {
-    margin-top: 15px;
-}
-
-main .container .row .thumbnail:not(:first-child) {
+main .container .row .thumbnail:not(:nth-child(2)) {
     margin-top: 50px;
 }
 
-main .container .row .thumbnail img {
-    float: left;
+main .container .row .thumbnail:nth-child(2) {
+    margin-top: 20px;
+}
 
+main .container .row .thumbnail img {
     margin-right: 15px;
+    margin-left: 0;
+    height: 144px;
 }
 
 main .container .row .thumbnail .caption {
-    float: right;
-    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 520px;
     width: 100%;
+    height: 144px;
     margin: 0;
     padding: 0;
 }
 
-main .container .row .thumbnail .caption h3 {
+main .container .row .thumbnail .caption h2 {
     position: relative;
 
-    max-width: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     width: 100%;
     margin-top: 0;
+    font-size: 24px;
     color: #d98d1b;
 }
 
-main .container .row .thumbnail .caption h3 i {
-    float: right;
-}
-
-main .container .row .thumbnail .caption h3 span {
+main .container .row .thumbnail .caption h2 span {
     position: absolute;
     top: 6px;
     right: 8px;
@@ -113,7 +117,6 @@ main .container .row .thumbnail .caption span i:not(:first-child) {
 }
 
 main .container .row .thumbnail .caption p {
-    max-width: 420px;
     width: 100%;
     margin-top: 10px;
 
@@ -129,4 +132,11 @@ main .container .row .thumbnail .caption p a:hover {
 
 main .container .row .thumbnail .caption p a:hover {
     text-decoration: none;
+}
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 144px;
 }

@@ -1,0 +1,28 @@
+footer {
+    padding-bottom: 50px;
+    background-color: #757f3c;
+}
+
+footer .title {
+    color: #3b401e;
+}
+
+footer .two-columns {
+    display: flex;
+    flex-flow: wrap column;
+    height: 185px;
+}
+
+footer .nav-list .nav-list__item a {
+    color: white;
+    font-size: 14px;
+}
+
+footer .nav-list .nav-list__item a:hover {
+    text-decoration: none;
+}
+
+footer .container .row nav .search-block {
+    display: flex;
+    width: 260px;
+}
