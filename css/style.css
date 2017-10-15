@@ -16,6 +16,11 @@
     font-family: 'Lato', Arial, sans-serif;
 }
 
+.discount {
+    font-size: 13px;
+    color: #c4b07a;
+}
+
 .title {
     font-size: 18px;
     font-weight: bold;
@@ -40,6 +45,11 @@
 
 .nav-list__item a i {
     margin-right: 5px;
+}
+
+.search-block {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .email-block {

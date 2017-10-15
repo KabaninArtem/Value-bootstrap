@@ -1,0 +1,61 @@
+header {
+    height: 100px;
+}
+
+header.navbar {
+    margin-bottom: 0;
+    background-color: white;
+}
+
+header .container {
+    position: relative;
+
+    background-color: white;
+}
+
+header .container .logo {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+header .container .collapse {
+    margin-left: 125px;
+}
+
+header .container .collapse > .row {
+    margin-top: 20px;
+    height: 70px;
+}
+
+header .container .collapse .main-menu,
+header .container .collapse .search-block {
+    margin-top: 15px;
+}
+
+header .container .collapse .row .main-menu li a {
+    font-size: 16px;
+}
+
+header .container .collapse .row > div:nth-child(2) {
+    padding-right: 0;
+}
+
+header .container .collapse .row .user-menu li a {
+    font-size: 13px;
+}
+
+header .container .collapse .row .main-menu li a,
+header .container .collapse .row .user-menu li a {
+    margin-right: 20px;
+    padding: 0 20px 0 0;
+    color: black;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+}
+
+header .container .collapse .main-menu li:last-child a,
+header .container .collapse .user-menu li:last-child a {
+    padding: 0;
+    border: none;
+}
